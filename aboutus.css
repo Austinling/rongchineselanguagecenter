@@ -1,0 +1,33 @@
+body{
+    background-image:url('Images/bg.png')
+}
+
+p{
+    color:white;
+}
+
+.aboutimage{
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.abouttext{
+    animation: slideInFromRight 1s ease-out;
+}
+
+
+.aboutusdiv {
+    height: 500px; /* Fixed height to control cropping */
+    overflow: hidden; /* Crops any overflowing image */
+    transition: transform 0.3s; /* Smooth hover transition */
+}
+
+.aboutusdiv:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.aboutusdiv img {
+    width: 100%; /* Full width of the div */
+    height: 100%; /* Full height of the div */
+    object-fit: cover; /* Crop the image to fit the container */
+    display: block; /* Removes extra space around the image */
+}

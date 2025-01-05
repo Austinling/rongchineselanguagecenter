@@ -1,0 +1,356 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-image:url('Images/bg.png')
+}
+
+/* Header styling */
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #cc0000;
+}
+
+/* Styling for active navbar link */
+.navbar-nav .nav-link.active {
+    color: #cc0000; /* Highlight active link */
+}
+
+.navbar-collapse{
+    z-index:99;
+}
+
+.rongbutton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* Logo styling */
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Title Images */
+.d-block {
+    width: 100%;
+    height: 500px;
+}
+
+.imageswheel{
+    animation:1s fadeIn ease-out;
+}
+
+/* Lanterns & Dragons*/
+
+.lantern-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Lanterns at edges, text in the center */
+    width: 100%; /* Full-width container */
+    position: relative;
+}
+
+.lantern1{
+    width:25vw;
+    animation: dropAnimation 1s ease-out;
+}
+
+.lantern2{
+    width:25vw;
+    float: right;
+    animation: dropAnimation 1s ease-out;
+}
+
+.dragon1{
+    width:25vw;
+    animation: dropAnimation 1s ease-out;
+}
+
+.dragon2{
+    width:25vw;
+    float: right;
+    animation: dropAnimation 1s ease-out;
+}
+
+
+/*Title text */
+
+.titletext {
+    text-align: center;
+    flex: 1; /* Ensures the text takes the remaining space between the lanterns */
+}
+
+.firsttitle {
+    font-size: clamp(1.5rem, 5vw, 5rem); /* Responsive font size for the main title */
+    margin: 0;
+    animation:1s slideInFromTop ease-out;
+    color:white;
+}
+
+.secondtitle {
+    font-size: clamp(1rem, 3vw, 3rem); /* Responsive font size for the subtitle */
+    margin: 0;
+    animation:1s slideInFromBottom ease-out;
+}
+
+/* Announcements Section */
+
+.eventstext{
+    margin-bottom:10px;
+    color:white;
+    font-size: clamp(1.5rem, 5vw, 5rem);
+    animation:1s slideInFromTop ease-out;
+}
+
+.announcements-section {
+    box-shadow: 4px 4px 8px #888888, -4px -4px 8px #888888;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inside-section {
+    padding: 10px;
+}
+
+.announcement-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+    width: calc(33.333% - 30px);
+    box-sizing: border-box;
+}
+
+.d-flex.flex-wrap {
+    gap: 15px;
+}
+
+.col-sm-6.col-md-4.col-lg-3 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+
+.col-sm-6.col-md-4.col-lg-3:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer nav a {
+    color: #333; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+    margin: 0 15px; /* Add margin for spacing */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #cc0000;
+}
+
+.noevents{
+    width:50vw;
+    animation:1s slideInFromBottom ease-out;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes dropAnimation {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        transform: rotate(-180deg) scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(-45deg) scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    .d-block{
+        height:300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-block{
+        height:250px;
+    }
+}
+
+/* Center logo hidden on small screens and outside logo shown */
+@media (max-width: 991px) {
+    .rongnav {
+        display: none; /* Hide center logo */
+    }
+
+    .outsidelogo {
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    /* Collapsed menu styling */
+    .navbar-collapse {
+        width: 50%; /* Take up 50% of the screen */
+        position: absolute; /* Position relative to the parent */
+        right: 0; /* Align to the right side of the screen */
+        top: 100%; /* Place below the toggle button */
+        background-color: #f8f9fa; /* Background color */
+        box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Optional shadow */
+        padding-top: 10px; /* Padding for spacing */
+    }
+
+    /* Styling for navbar items */
+    .navbar-nav {
+        width: 100%; /* Full width */
+        gap:0;
+    }
+    .navbar-nav .nav-item {
+        padding: 10px 20px; /* Padding for touch targets */
+    }
+    .navbar-nav .nav-link {
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #cc0000; /* Hover effect */
+    }
+}
+
+/* Larger screens */
+@media (min-width: 992px) {
+    .outsidelogo {
+        display: none; /* Hide outside logo */
+    }
+    .noevents{
+        width:25vw;
+    }
+}
+
+

@@ -1,0 +1,37 @@
+body{
+    background-image:url('Images/bg.png')
+}
+
+.testimonialimg{
+    border: 2px solid black;
+    border-radius:50%;
+    height:80px;
+    width:80px;
+    margin-right:40px;
+}
+
+.tcol{
+    flex-direction:row;
+    background-color:white;
+    margin:10px auto 10px auto;
+    animation: rotateIn 1s ease-out;
+}
+
+@media (max-width: 500px) {
+    .tcol{
+        flex-direction:column!important;
+    }
+
+    .name{
+        order: -1 !important;
+        text-align:center;
+    }
+    .text {
+        order: 1 !important;
+        text-align:center;
+    }
+
+    .testimonialimg{
+        margin:20px auto 30px auto;
+    }
+}

@@ -1,0 +1,116 @@
+[
+    {
+        "name": "卢蓉蓉",
+        "role": "校长",
+        "category": "校长",
+        "image": "Teachers/lurongrong.jpg"
+    },
+    {
+        "name": "胡富玲",
+        "role": "主任",
+        "category": "校长",
+        "image": "Teachers/hufuling.jpg"
+    },
+    {
+        "name": "吴彩金",
+        "role": "主任",
+        "category": "校长",
+        "image": "Teachers/wucaijin.jpg"
+    },
+    {
+        "name": "柳云云",
+        "role": "主任",
+        "category": "校长",
+        "image": "Teachers/liuyunyun.jpg"
+    },
+    {
+        "name": "卢惠萍",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/luhuiping.jpg"
+    },
+    {
+        "name": "许绮红",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/xuqihong.jpg"
+    },
+    {
+        "name": "萧婷婷",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/xiaotingting.jpg"
+    },
+    {
+        "name": "李玲玲",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/lilingling.jpg"
+    },
+    {
+        "name": "李应双",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/liyingshuang.jpg"
+    },
+    {
+        "name": "李应美",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/liyingmei.jpg"
+    },
+    {
+        "name": "李应芬",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/liyingfen.jpg"
+    },
+    {
+        "name": "林樱",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/linying.jpg"
+    },
+    {
+        "name": "杨仙芝",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/yangxianzhi.jpg"
+    },
+    {
+        "name": "杨紫珊",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/yangzishan.jpg"
+    },
+    {
+        "name": "林美芸",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/linmeiyun.jpg"
+    },
+    {
+        "name": "邱广玉",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/qiuguangyu.jpg"
+    },
+    {
+        "name": "徐丽香",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/xulixiang.jpg"
+    },
+    {
+        "name": "程美珠",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/chengmeizhu.jpg"
+    },
+    {
+        "name": "濮圆月",
+        "role": "老师",
+        "category": "老师",
+        "image": "Teachers/puyuanyue.jpg"
+    }
+]

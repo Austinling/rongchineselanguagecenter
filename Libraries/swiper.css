@@ -1,0 +1,58 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiperimg{
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.revswiper{
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 400px;
+}
+
+.margins{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+@media(max-width:768px){
+  .swiperimg {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+}
