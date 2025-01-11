@@ -1,22 +1,22 @@
 [
     {
-        "name": "Maung Kyaw",
-        "text": "I've been taking classes at the Rong Chinese Language Center for a few months now, and I couldn't be happier with my experience! The instructors are patient, knowledgeable, and genuinely passionate about teaching. They go beyond just the language—incorporating cultural insights and traditions that make learning so much more meaningful.",
+        "name": "吴珍珍",
+        "text": "老师们非常棒，让学习变得有趣！他们还教中国文化，学习体验更丰富。",
         "image": "Images/student1.jpg"
     },
     {
-        "name": "Maung Kyaw",
-        "text": "Rong is such a warm and inviting place to learn Chinese! The classes are well-paced, and the teachers make even difficult concepts easy to grasp. I’ve learned so much in just a few months, and I look forward to each class!",
+        "name": "瞿祥珍",
+        "text": "荣是一个友好的学习中文的地方。课程清晰易懂，我非常喜欢！",
         "image": "Images/student2.jpg"
     },
     {
-        "name": "Maung Kyaw",
-        "text": "Highly recommend Rong Chinese Language Center! The lessons are interactive, and the teachers really care about helping you succeed. Plus, the cultural events are a fun bonus—you get to practice the language while experiencing authentic Chinese traditions.",
+        "name": "林素美",
+        "text": "我强烈推荐荣！课程互动性强，老师非常支持学生。文化活动也很棒。",
         "image": "Images/student3.jpg"
     },
     {
-        "name": "Maung Kyaw",
-        "text": "I joined Rong to improve my Mandarin, and it’s been a fantastic experience. The teachers are wonderful, and I love how they incorporate culture into every lesson. It feels like more than just a language school; it’s a community!",
+        "name": "林晨",
+        "text": "我在这里的普通话进步很大。老师很棒，这里像一个大家庭！",
         "image": "Images/student4.jpg"
     }
 ]

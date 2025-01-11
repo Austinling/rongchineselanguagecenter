@@ -15,10 +15,12 @@ p{
 }
 
 
-.aboutusdiv {
-    height: 500px; /* Fixed height to control cropping */
+.aboutusdiv{
+    height: 700px; /* Fixed height to control cropping */
     overflow: hidden; /* Crops any overflowing image */
     transition: transform 0.3s; /* Smooth hover transition */
+    display:flex;
+    align-items:center;
 }
 
 .aboutusdiv:hover {
@@ -30,4 +32,10 @@ p{
     height: 100%; /* Full height of the div */
     object-fit: cover; /* Crop the image to fit the container */
     display: block; /* Removes extra space around the image */
+}
+
+@media (max-width:992px){
+    .aboutusdiv{
+        height:500px;
+    }
 }
